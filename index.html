@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rajat Kumar | Computational chemist</title>
+  <meta name="description" content="Rajat Kumar is a computational chemist studying how molecular interactions and organization govern phase behavior, transport, and structural transformations in supercooled aqueous mixtures and other complex molecular systems. Postdoctoral scholar at UC Merced from November 2026.">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#F3F6F7">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Rajat Kumar | Computational chemist">
+  <meta property="og:description" content="Molecular simulation, statistical mechanics, and atomistic, coarse-grained, and machine-learned models of aqueous and complex molecular systems. Postdoctoral scholar at UC Merced from November 2026.">
+  <meta property="og:url" content="https://rajatk-161.github.io/">
+  <meta property="og:image" content="https://rajatk-161.github.io/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://rajatk-161.github.io/">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 3l11.3 6.5v13L16 29 4.7 22.5v-13z' fill='%231C6E8C'/%3E%3Ccircle cx='16' cy='16' r='4' fill='%23F3F6F7'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Rajat Kumar",
+    "url": "https://rajatk-161.github.io/",
+    "image": "https://rajatk-161.github.io/portrait.jpg",
+    "jobTitle": "Postdoctoral Scholar",
+    "email": "mailto:rajat.utah@gmail.com",
+    "affiliation": {"@type": "CollegeOrUniversity", "name": "University of California, Merced"},
+    "alumniOf": [
+      {"@type": "CollegeOrUniversity", "name": "University of Utah"},
+      {"@type": "CollegeOrUniversity", "name": "Indian Institute of Science Education and Research Kolkata"}
+    ],
+    "sameAs": [
+      "https://scholar.google.com/citations?user=IU7pHzIAAAAJ&hl=en",
+      "https://orcid.org/0009-0001-2572-4879",
+      "https://www.linkedin.com/in/rajat-kumar-b97ab1344/"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top">Rajat Kumar</a>
+      <nav class="site-nav" aria-label="Sections">
+        <a href="#research">Research</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#talks">Talks</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#background">Background</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============================================================ HERO -->
+    <section class="hero wrap" id="top">
+      <div class="hero-text">
+        <div class="hero-id">
+          <img class="avatar" src="portrait.jpg" alt="Rajat Kumar" width="120" height="120">
+          <h1>Rajat Kumar</h1>
+        </div>
+        <ul class="profile-links" aria-label="Profiles and contact">
+          <li><a href="https://scholar.google.com/citations?user=IU7pHzIAAAAJ&amp;hl=en">Google Scholar</a></li>
+          <li><a href="https://www.linkedin.com/in/rajat-kumar-b97ab1344/">LinkedIn</a></li>
+          <li><a href="https://orcid.org/0009-0001-2572-4879">ORCID</a></li>
+          <li><a href="mailto:rajat.utah@gmail.com">Email</a></li>
+          <li data-cv><a href="Rajat_Kumar_CV.pdf">CV</a></li>
+        </ul>
+        <p class="lead">I study how molecular interactions and organization govern phase behavior, transport, and structural transformations in supercooled aqueous mixtures and other complex molecular systems.</p>
+        <p class="hero-next">My work combines molecular simulation, statistical mechanics, and the development and application of atomistic, coarse-grained, and machine-learned models. I have applied these to supercooled water and amorphous ice, water–glycerol mixtures, water and ice at poly(vinyl alcohol) surfaces, and heterogeneous ice nucleation on organic crystals at high pressure, connecting simulations with X-ray scattering and spectroscopy experiments. As a postdoctoral scholar in the <a href="https://sites.ucmerced.edu/dutagaci/">Dutagaci Lab</a> at UC Merced from November 2026, I am extending this work to RNA polymerase II, using molecular simulation and machine learning to study how the polymerase and its elongation factors govern transcription.</p>
+        <p class="hero-meta">Ph.D. in Chemistry, University of Utah, May 2026<br>Advisor: Valeria Molinero</p>
+      </div>
+
+      <figure class="hero-figure">
+        <div class="field-frame">
+          <canvas id="field" aria-label="Live lattice model of two interconverting liquid structures" role="img"></canvas>
+        </div>
+        <div class="field-controls" role="group" aria-label="Temperature relative to the critical point">
+          <button type="button" data-temp="below" aria-pressed="false">Below T<sub>c</sub></button>
+          <button type="button" data-temp="near" aria-pressed="true">Near T<sub>c</sub></button>
+          <button type="button" data-temp="above" aria-pressed="false">Above T<sub>c</sub></button>
+        </div>
+        <figcaption>A toy model running in your browser: a lattice of two interconverting local structures, low density in deep blue and high density in pale blue. Near the critical point, domains of every size appear and dissolve. These are the fluctuations my decompression work traces through scattering at low q.</figcaption>
+      </figure>
+    </section>
+
+    <!-- ============================================================ ABOUT -->
+    <section class="section wrap about" id="about" aria-labelledby="about-h">
+      <h2 id="about-h" class="visually-hidden">About</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>My doctoral research with Valeria Molinero at the University of Utah asked what water does when it is cooled far below its freezing point: whether it separates into two distinct liquids, how that transformation competes with freezing and glass formation, and which of these signatures experiments can actually detect.</p>
+          <p>The same questions extend to mixtures and surfaces. In water–glycerol mixtures, relevant to cryopreservation, I study how a solute shifts the balance between ice and glass. At poly(vinyl alcohol) surfaces, I study how the polymer structures nearby water to inhibit ice recrystallization. I have also worked on heterogeneous ice nucleation on organic crystals at high pressure. Several of these projects were collaborations with experimental groups.</p>
+          <p>Before my Ph.D., I simulated ionic liquids at IISER Kolkata, developed ionic-liquid force fields at JNCASR Bengaluru, and benchmarked coarse-graining methods for metal–organic frameworks at the University of Calgary.</p>
+        </div>
+        <aside class="toolkit" aria-labelledby="toolkit-h">
+          <h3 id="toolkit-h">Toolkit</h3>
+          <dl>
+            <dt>Simulation</dt>
+            <dd>LAMMPS, GROMACS; all-atom, coarse-grained, and machine-learned models; umbrella sampling, metadynamics</dd>
+            <dt>Model building</dt>
+            <dd>Coarse-grained force fields by inverse Boltzmann inversion, inverse Monte Carlo, relative entropy minimization, and force matching</dd>
+            <dt>Analysis</dt>
+            <dd>Structure factors and Ornstein–Zernike analysis, free energies, local order parameters, diffusion, viscosity, hydrogen-bond dynamics</dd>
+            <dt>Computing</dt>
+            <dd>Python (NumPy, SciPy, pandas, MDAnalysis), Bash, Git, SLURM workflows on HPC clusters, VMD, OVITO</dd>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============================================================ RESEARCH -->
+    <section class="section wrap" id="research" aria-labelledby="research-h">
+      <h2 id="research-h">Research</h2>
+      <p class="section-intro">Four questions from my doctoral work. The figures are schematics drawn for this page; the papers have the data.</p>
+
+      <article class="project">
+        <figure class="project-fig">
+          <a class="fig-link" href="llt-phase-diagram.svg" title="Open full size"><img src="llt-phase-diagram.svg" alt="Schematic phase diagram: a liquid–liquid transition line ends at a critical point near 170 MPa and 181 K, continues as the Widom line, and ice forms fastest along this band." width="560" height="400" loading="lazy"></a>
+        </figure>
+        <div class="project-text">
+          <h3>Two liquids and ice in one model</h3>
+          <p class="takeaway">Ice forms fastest right along the line where water’s two liquids meet, yet the freezing temperature carries no trace of the critical point.</p>
+          <p>With ML-BOP, a machine-learned coarse-grained water model, we found a first-order transition between high- and low-density liquids that ends at a critical point near 170 MPa and 181 K, with a transition line close to that of TIP4P/2005. Because the same model also freezes spontaneously, it let us watch the liquid transformation and crystallization compete directly. Tetrahedral, low-density liquid needs little rearrangement to become ice while staying mobile enough for fast growth. The flip side is that crystallization data alone cannot locate the critical point.</p>
+          <p class="refs"><a href="https://doi.org/10.1073/pnas.2322853121">PNAS 2024</a>, co-first author; Valeria Molinero’s National Academy of Sciences Inaugural Article. Covered by <a href="https://www.quantamagazine.org/the-enduring-mystery-of-how-water-freezes-20240617/">Quanta Magazine</a> and a <a href="https://doi.org/10.1073/pnas.2409573121">PNAS Profile</a>.</p>
+        </div>
+      </article>
+
+      <article class="project">
+        <figure class="project-fig">
+          <a class="fig-link" href="decompression-signature.svg" title="Open full size"><img src="decompression-signature.svg" alt="Schematic: during decompression the main peak of the structure factor moves as a single peak while a low-q excess grows and fades; the apparent correlation length rises and decays for paths along the transition, peaking near the critical point." width="620" height="330" loading="lazy"></a>
+        </figure>
+        <div class="project-text">
+          <h3>What decompression experiments reveal</h3>
+          <p class="takeaway">The mark of water’s liquid–liquid transition in X-ray scattering is a transient growth of correlations at low wavevector, not a split peak.</p>
+          <p>Pump–probe X-ray experiments reported two peaks in the structure factor as decompressed water crossed the transition, which would imply two coexisting liquids at a pressure where that should not happen. I ran adiabatic decompression simulations of up to a million molecules, starting below, near, and above the critical temperature. Even on crossing the transition, the main peak stays single because high- and low-density domains remain nanoscopic. The two-peak spectra are better explained by colder liquid lagging behind in a sample with a temperature gradient. The telling signal is the apparent correlation length at low q, which grows and then decays, peaks for paths near the critical point, and stays small when decompression starts above T<sub>c</sub> or runs too fast.</p>
+          <p class="refs"><a href="https://doi.org/10.1063/5.0304941">J. Chem. Phys. 2026</a>, first author, in the Carlos Vega Festschrift. The paper drew a published <a href="https://pubs.aip.org/aip/jcp/article/165/9/097101/3403847">comment</a> from the experimental team, and we <a href="https://doi.org/10.1063/5.0352830">responded</a>.</p>
+        </div>
+      </article>
+
+      <article class="project">
+        <figure class="project-fig">
+          <a class="fig-link" href="glycerol-soft-confinement.svg" title="Open full size"><img src="glycerol-soft-confinement.svg" alt="Schematic: on cooling, low-density water domains expand and glycerol molecules are confined to the shrinking high-density spaces between them." width="620" height="330" loading="lazy"></a>
+        </figure>
+        <div class="project-text">
+          <h3>How glycerol keeps water from freezing</h3>
+          <p class="takeaway">Glycerol holds off ice by being squeezed between growing low-density water domains, which caps how large ice-ready regions can become.</p>
+          <p>I built a coarse-grained water–glycerol model, pairing mW water with a flexible six-site glycerol, and parameterized it against mixture densities, enthalpies of mixing, and atomistic first-shell structure. Across 1–50 wt % glycerol, water and glycerol break the Stokes–Einstein relation in different ways, and a dynamical crossover appears consistently in diffusion, viscosity, and hydrogen-bond lifetimes. On cooling, glycerol shifts water’s crossover from high- to low-density local structure to lower temperature without erasing it. The mixture stays homogeneous while glycerol is confined to shrinking gaps, a self-generated soft confinement that limits ice-compatible domains and favors glass over crystal.</p>
+          <p class="refs"><a href="https://doi.org/10.1080/00268976.2024.2413925">Mol. Phys. 2024</a>. First-author manuscript on structural heterogeneity and crystallization to be submitted.</p>
+        </div>
+      </article>
+
+      <article class="project">
+        <figure class="project-fig">
+          <a class="fig-link" href="shear-amorphous-ice.svg" title="Open full size"><img src="shear-amorphous-ice.svg" alt="Schematic: an ordered ice lattice is sheared into a disordered, medium-density amorphous network." width="620" height="262" loading="lazy"></a>
+        </figure>
+        <div class="project-text">
+          <h3>Ice under shear, and water at polymer surfaces</h3>
+          <p class="takeaway">How fast ice is sheared decides which amorphous form of water it becomes.</p>
+          <p>I contributed to the first molecular-simulation study of medium-density amorphous ice, which established its structural and thermodynamic signatures and identified shear rate as a further dimension of water’s phase diagram. In a multi-institution MURI collaboration on poly(vinyl alcohol) and ice recrystallization inhibition, I analyzed interfacial structure and spatially resolved tetrahedral order to give molecular meaning to EPR and <sup>17</sup>O NMR measurements.</p>
+          <p class="refs"><a href="https://doi.org/10.1073/pnas.2414444121">PNAS 2024</a>. Covered by <a href="https://attheu.utah.edu/science-technology/exploring-the-frontiers-of-frozen-water/">@theU</a> and <a href="https://phys.org/news/2025-02-frontiers-frozen-simulations-effects-medium.html">Phys.org</a>. Polymer–water manuscript to be submitted.</p>
+        </div>
+      </article>
+
+      <div class="next">
+        <h3>Next: the machinery of transcription</h3>
+        <p>In the <a href="https://sites.ucmerced.edu/dutagaci/">Dutagaci Lab</a> at UC Merced, I will use molecular dynamics, enhanced sampling, and machine learning to study how RNA polymerase II and its elongation factors control transcription, as part of the lab’s NIH-funded project on elongation complex dynamics. The question carries over from water: which fluctuations matter, and which states compete.</p>
+      </div>
+    </section>
+
+    <!-- ============================================================ NEWS -->
+    <section class="section wrap" id="news" aria-labelledby="news-h">
+      <h2 id="news-h">In the news</h2>
+      <p class="section-intro">Press and journal coverage of papers I co-authored.</p>
+      <ul class="news">
+        <li>
+          <p class="news-outlet">Quanta Magazine, June 2024</p>
+          <p class="news-title"><a href="https://www.quantamagazine.org/the-enduring-mystery-of-how-water-freezes-20240617/">The Enduring Mystery of How Water Freezes</a></p>
+          <p class="news-note">Features our finding that ice forms fastest where water’s two liquids meet.</p>
+        </li>
+        <li>
+          <p class="news-outlet">PNAS, June 2024</p>
+          <p class="news-title"><a href="https://doi.org/10.1073/pnas.2409573121">Profile of Valeria P. Molinero</a></p>
+          <p class="news-note">Highlights the same study, published as her National Academy of Sciences Inaugural Article.</p>
+        </li>
+        <li>
+          <p class="news-outlet">@theU, University of Utah, February 2025</p>
+          <p class="news-title"><a href="https://attheu.utah.edu/science-technology/exploring-the-frontiers-of-frozen-water/">Exploring the frontiers of frozen water</a></p>
+          <p class="news-note">On our simulations of medium-density amorphous ice and shear.</p>
+        </li>
+        <li>
+          <p class="news-outlet">Phys.org, February 2025</p>
+          <p class="news-title"><a href="https://phys.org/news/2025-02-frontiers-frozen-simulations-effects-medium.html">Pushing the frontiers of frozen water</a></p>
+          <p class="news-note">The same medium-density amorphous ice study.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============================================================ PUBLICATIONS -->
+    <section class="section wrap" id="publications" aria-labelledby="pubs-h">
+      <h2 id="pubs-h">Publications</h2>
+      <p class="section-intro">Full and current list on <a href="https://scholar.google.com/citations?user=IU7pHzIAAAAJ&amp;hl=en">Google Scholar</a>. An asterisk marks equal contribution.</p>
+
+      <ol class="pubs">
+        <li>
+          <span class="pub-year">2026</span>
+          <div>
+            <p class="pub-title"><a href="https://doi.org/10.1063/5.0352830">Response to “Comment on ‘Rethinking the evidence for a liquid–liquid transition in water: What decompression experiments reveal’”</a></p>
+            <p class="pub-authors">V. Molinero, <b>R. Kumar</b>, I. de Almeida Ribeiro, D. Dhabal</p>
+            <p class="pub-venue"><i>J. Chem. Phys.</i> 165, 097102 (2026)</p>
+          </div>
+        </li>
+        <li>
+          <span class="pub-year">2026</span>
+          <div>
+            <p class="pub-title"><a href="https://doi.org/10.1063/5.0304941">Rethinking the evidence for a liquid–liquid transition in water: What decompression experiments reveal</a></p>
+            <p class="pub-authors"><b>R. Kumar</b>, I. de Almeida Ribeiro, D. Dhabal, V. Molinero</p>
+            <p class="pub-venue"><i>J. Chem. Phys.</i> 164, 024506 (2026) <span class="pub-extra"><a href="https://chemrxiv.org/engage/chemrxiv/article-details/68deae965dd091524f9356da">Preprint</a></span></p>
+          </div>
+        </li>
+        <li>
+          <span class="pub-year">2024</span>
+          <div>
+            <p class="pub-title"><a href="https://doi.org/10.1073/pnas.2414444121">Medium-density amorphous ice unveils shear rate as a new dimension in water’s phase diagram</a></p>
+            <p class="pub-authors">I. de Almeida Ribeiro, D. Dhabal, <b>R. Kumar</b>, S. Banik, S. K. R. S. Sankaranarayanan, V. Molinero</p>
+            <p class="pub-venue"><i>Proc. Natl. Acad. Sci.</i> 121, e2414444121 (2024) <span class="pub-extra">In the news: <a href="https://attheu.utah.edu/science-technology/exploring-the-frontiers-of-frozen-water/">@theU</a>, <a href="https://phys.org/news/2025-02-frontiers-frozen-simulations-effects-medium.html">Phys.org</a></span></p>
+          </div>
+        </li>
+        <li>
+          <span class="pub-year">2024</span>
+          <div>
+            <p class="pub-title"><a href="https://doi.org/10.1080/00268976.2024.2413925">Anomalous behaviour of transport properties in a supercooled water–glycerol mixture</a></p>
+            <p class="pub-authors">A. Zaragoza, <b>R. Kumar</b>, J. Martín Roca, P. Khatua, V. Molinero, F. Caupin, C. Valeriani</p>
+            <p class="pub-venue"><i>Mol. Phys.</i> 122, e2413925 (2024) <span class="pub-extra"><a href="https://arxiv.org/abs/2407.05812">Preprint</a></span></p>
+          </div>
+        </li>
+        <li>
+          <span class="pub-year">2024</span>
+          <div>
+            <p class="pub-title"><a href="https://doi.org/10.1073/pnas.2322853121">Liquid–liquid transition and ice crystallization in a machine-learned coarse-grained water model</a></p>
+            <p class="pub-authors">D. Dhabal*, <b>R. Kumar</b>*, V. Molinero</p>
+            <p class="pub-venue"><i>Proc. Natl. Acad. Sci.</i> 121, e2322853121 (2024), NAS Inaugural Article <span class="pub-extra">In the news: <a href="https://www.quantamagazine.org/the-enduring-mystery-of-how-water-freezes-20240617/">Quanta Magazine</a>, <a href="https://doi.org/10.1073/pnas.2409573121">PNAS Profile</a></span></p>
+          </div>
+        </li>
+      </ol>
+
+      <h3 class="pubs-sub">In preparation</h3>
+      <ol class="pubs pubs-prep">
+        <li>
+          <div>
+            <p class="pub-title">Water polymorphism governs structural heterogeneity and crystallization in water–glycerol mixtures</p>
+            <p class="pub-authors"><b>R. Kumar</b>, A. Zaragoza, V. Molinero</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <p class="pub-title">Competing mechanisms of liquid–liquid transition and ice crystallization in supercooled water</p>
+            <p class="pub-authors"><b>R. Kumar</b>, D. Dhabal, I. de Almeida Ribeiro, V. Molinero</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <p class="pub-title">Water structuring on poly(vinyl alcohol) surfaces underlies ice recrystallization inhibition activity</p>
+            <p class="pub-authors">P. P. Taware, M.-J. Ferre, C. Crilly, E. Gubbins, Z. Brotherton, L. Rao, A. K. Kim, <b>R. Kumar</b>, B. Axtell, V. Molinero, B. Peters, K. Meister, M. Shultz, S. Han</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============================================================ TALKS -->
+    <section class="section wrap" id="talks" aria-labelledby="talks-h">
+      <h2 id="talks-h">Talks and meetings</h2>
+      <ol class="yearlist">
+        <li><span>2026</span><p>Invited talk, Statistical Thermodynamics and Molecular Simulations (STMS) Virtual Seminar Series</p></li>
+        <li><span>2026</span><p>Gordon Research Conference, Water and Aqueous Solutions</p></li>
+        <li><span>2025</span><p>Gordon Research Conference, Chemistry and Physics of Liquids</p></li>
+        <li><span>2025</span><p>EMSL Summer School on AI/ML, large language models, and scientific agents</p></li>
+        <li><span>2024</span><p>Gordon Research Conference, Water and Aqueous Solutions</p></li>
+        <li><span>2024</span><p>Berkeley Statistical Mechanics Meeting</p></li>
+        <li><span>2022</span><p>Gordon Research Conference, Water and Aqueous Solutions</p></li>
+        <li><span>2021</span><p>Telluride School on Theoretical Chemistry</p></li>
+      </ol>
+    </section>
+
+    <!-- ============================================================ TEACHING -->
+    <section class="section wrap" id="teaching" aria-labelledby="teaching-h">
+      <h2 id="teaching-h">Teaching and mentoring</h2>
+      <p class="section-intro">I try to connect formalism to physical intuition, so that concepts become tools students can use rather than material to memorize.</p>
+      <div class="teach-grid">
+        <div>
+          <h3>Statistical Mechanics and Thermodynamics</h3>
+          <p>Teaching assistant for CHEM 3070 at the University of Utah, as sole TA with Michael Grünwald in 2021 and with Valeria Molinero in spring 2026. I led problem-solving sessions on ensembles, partition functions, and phase transitions for more than 50 students each term.</p>
+        </div>
+        <div>
+          <h3>Research mentoring</h3>
+          <p>Mentored two REU undergraduate researchers building coarse-grained models of aqueous salt solutions, from first design through validation.</p>
+        </div>
+        <div>
+          <h3>Introduction to Python Programming</h3>
+          <p>Teaching assistant at IISER Kolkata for first-year undergraduates, many of them programming for the first time.</p>
+        </div>
+        <div>
+          <h3>Ek Pehal outreach</h3>
+          <p>Volunteer teacher of science and English for children in communities near IISER Kolkata, including hands-on science demonstrations.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ BACKGROUND -->
+    <section class="section wrap" id="background" aria-labelledby="bg-h">
+      <h2 id="bg-h">Background</h2>
+      <ol class="yearlist timeline">
+        <li><span>Nov 2026–</span><p><b>Postdoctoral Scholar</b>, Dutagaci Lab, Department of Molecular and Cell Biology, University of California, Merced</p></li>
+        <li><span>Jun–Oct 2026</span><p><b>Research Associate</b>, Molinero group, Department of Chemistry, University of Utah</p></li>
+        <li><span>2020–2026</span><p><b>Ph.D., Chemistry</b>, University of Utah, May 2026. Advisor: Valeria Molinero</p></li>
+        <li><span>2019</span><p><b>MITACS Summer Research Intern</b>, University of Calgary, with Peter Kusalik. Coarse-grained force fields for metal–organic frameworks</p></li>
+        <li><span>2018</span><p><b>Indian Academy of Sciences Summer Research Fellow</b>, JNCASR Bengaluru, with S. Balasubramanian. Force fields for ionic liquids</p></li>
+        <li><span>2015–2020</span><p><b>Integrated BS–MS, Chemistry</b>, IISER Kolkata. Thesis on ionic liquids with Pradeep Kumar Ghorai</p></li>
+      </ol>
+    </section>
+
+    <!-- ============================================================ CONTACT -->
+    <section class="section wrap contact" id="contact" aria-labelledby="contact-h">
+      <h2 id="contact-h">Contact</h2>
+      <p class="contact-line">Email is the best way to reach me: <a href="mailto:rajat.utah@gmail.com">rajat.utah@gmail.com</a></p>
+      <ul class="profile-links" aria-label="Profiles">
+        <li><a href="https://scholar.google.com/citations?user=IU7pHzIAAAAJ&amp;hl=en">Google Scholar</a></li>
+        <li><a href="https://www.linkedin.com/in/rajat-kumar-b97ab1344/">LinkedIn</a></li>
+        <li><a href="https://orcid.org/0009-0001-2572-4879">ORCID</a></li>
+        <li data-cv><a href="Rajat_Kumar_CV.pdf">CV</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© 2026 Rajat Kumar. Last updated September 2026.</p>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>

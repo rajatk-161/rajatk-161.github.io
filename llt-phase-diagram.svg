@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" role="img" aria-labelledby="t d">
+<title id="t">Schematic phase diagram of supercooled water</title>
+<desc id="d">A liquid-liquid transition line ends at a critical point near 170 MPa and 181 K; its continuation is the Widom line. Ice crystallization is fastest along this band.</desc>
+<style>
+  svg{--ink:#102A36;--muted:#5E717B;--rule:#B7C8CF;--glacier:#1C6E8C;--mist:#D3E3E8;--amber:#B8740A;--paper:#E8EFF1}
+  text{font-family:'IBM Plex Sans','Helvetica Neue',Helvetica,Arial,sans-serif;fill:var(--ink);font-size:15px}
+  .muted{fill:var(--muted)} .small{font-size:13.5px} .label{font-size:16px;font-weight:500}
+  .axis{stroke:var(--muted);stroke-width:1.2;fill:none}
+  .ink{stroke:var(--ink)}
+</style>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" style="fill:var(--muted)"/>
+  </marker>
+  <marker id="ahi" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" style="fill:var(--ink)"/>
+  </marker>
+</defs>
+<rect width="560" height="400" style="fill:var(--paper)"/>
+<path class="axis" d="M70,340 L538,340" marker-end="url(#ah)"/>
+<path class="axis" d="M70,340 L70,28" marker-end="url(#ah)"/>
+<text x="536" y="366" text-anchor="end" class="muted">Temperature</text>
+<text transform="translate(52,40) rotate(-90)" text-anchor="end" class="muted">Pressure</text>
+<path d="M94.6,67.7 L98.2,71.7 L101.7,75.8 L105.3,79.8 L108.8,83.7 L112.3,87.6 L115.9,91.5 L119.4,95.3 L123.0,99.1 L126.5,102.8 L130.0,106.5 L133.6,110.1 L137.1,113.7 L140.7,117.2 L144.2,120.7 L147.8,124.2 L151.3,127.6 L154.8,130.9 L158.4,134.3 L161.9,137.5 L165.5,140.7 L169.0,143.9 L172.5,147.1 L176.1,150.1 L179.6,153.2 L183.2,156.2 L186.7,159.1 L190.2,162.1 L193.8,164.9 L197.3,167.7 L202.4,172.2 L207.4,176.6 L212.5,181.0 L217.5,185.4 L222.6,189.7 L227.7,194.0 L232.7,198.3 L237.8,202.5 L242.8,206.6 L247.9,210.8 L252.9,214.9 L258.0,219.0 L263.0,223.0 L268.1,227.0 L273.1,230.9 L278.2,234.9 L283.3,238.7 L288.3,242.6 L293.4,246.4 L298.4,250.2 L303.5,253.9 L308.5,257.6 L313.6,261.3 L318.6,264.9 L323.7,268.5 L328.8,272.0 L333.8,275.5 L338.9,279.0 L343.9,282.4 L349.0,285.9 L354.0,289.2 L359.1,292.5 L364.1,295.8 L369.2,299.1 L374.2,302.3 L379.3,305.5 L384.4,308.6 L389.4,311.7 L394.5,314.8" style="fill:none;stroke:var(--glacier);stroke-opacity:.16;stroke-width:34;stroke-linecap:round;stroke-linejoin:round"/>
+<path d="M94.6,67.7 L98.2,71.7 L101.7,75.8 L105.3,79.8 L108.8,83.7 L112.3,87.6 L115.9,91.5 L119.4,95.3 L123.0,99.1 L126.5,102.8 L130.0,106.5 L133.6,110.1 L137.1,113.7 L140.7,117.2 L144.2,120.7 L147.8,124.2 L151.3,127.6 L154.8,130.9 L158.4,134.3 L161.9,137.5 L165.5,140.7 L169.0,143.9 L172.5,147.1 L176.1,150.1 L179.6,153.2 L183.2,156.2 L186.7,159.1 L190.2,162.1 L193.8,164.9 L197.3,167.7" style="fill:none;stroke:var(--glacier);stroke-width:3.2;stroke-linecap:round"/>
+<path d="M197.3,167.7 L202.4,172.2 L207.4,176.6 L212.5,181.0 L217.5,185.4 L222.6,189.7 L227.7,194.0 L232.7,198.3 L237.8,202.5 L242.8,206.6 L247.9,210.8 L252.9,214.9 L258.0,219.0 L263.0,223.0 L268.1,227.0 L273.1,230.9 L278.2,234.9 L283.3,238.7 L288.3,242.6 L293.4,246.4 L298.4,250.2 L303.5,253.9 L308.5,257.6 L313.6,261.3 L318.6,264.9 L323.7,268.5 L328.8,272.0 L333.8,275.5 L338.9,279.0 L343.9,282.4 L349.0,285.9 L354.0,289.2 L359.1,292.5 L364.1,295.8 L369.2,299.1 L374.2,302.3 L379.3,305.5 L384.4,308.6 L389.4,311.7 L394.5,314.8" style="fill:none;stroke:var(--glacier);stroke-width:2;stroke-dasharray:6 6;stroke-linecap:round"/>
+<text x="332.85714285714283" y="74.50666666666666" class="label">high-density liquid</text>
+<text x="98.75" y="281.2266666666667" class="label">low-density liquid</text>
+<text x="119.0" y="59.3" class="small">liquid–liquid transition</text>
+<text transform="translate(328.2,255.9) rotate(35)" class="small muted">Widom line</text>
+<path d="M331.0,202.2 Q308.2,212.3 289.7,230.6" class="axis" marker-end="url(#ah)"/>
+<text x="337.0" y="206.2" class="small muted">ice forms fastest</text>
+<text x="337.0" y="222.2" class="small muted">along this band</text>
+<circle cx="197.32142857142858" cy="167.73333333333335" r="8.5" style="fill:var(--amber)"/>
+<circle cx="197.32142857142858" cy="167.73333333333335" r="14" style="fill:none;stroke:var(--amber);stroke-opacity:.45;stroke-width:1.5"/>
+<text x="219.32142857142858" y="161.73333333333335" class="label">critical point</text>
+<text x="219.32142857142858" y="179.73333333333335" class="small muted">≈ 170 MPa, 181 K in ML-BOP</text>
+</svg>
