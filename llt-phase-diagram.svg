@@ -27,10 +27,10 @@
 <text x="332.85714285714283" y="74.50666666666666" class="label">high-density liquid</text>
 <text x="98.75" y="281.2266666666667" class="label">low-density liquid</text>
 <text x="119.0" y="59.3" class="small">liquid–liquid transition</text>
-<text transform="translate(328.2,255.9) rotate(35)" class="small muted">Widom line</text>
+<text transform="translate(328.2,255.9) rotate(35)" class="small muted">C<tspan baseline-shift="sub" font-size="10">p</tspan> maxima</text>
 <path d="M331.0,202.2 Q308.2,212.3 289.7,230.6" class="axis" marker-end="url(#ah)"/>
-<text x="337.0" y="206.2" class="small muted">ice forms fastest</text>
-<text x="337.0" y="222.2" class="small muted">along this band</text>
+<text x="337.0" y="206.2" class="small muted">fastest ice</text>
+<text x="337.0" y="222.2" class="small muted">crystallization</text>
 <circle cx="197.32142857142858" cy="167.73333333333335" r="8.5" style="fill:var(--amber)"/>
 <circle cx="197.32142857142858" cy="167.73333333333335" r="14" style="fill:none;stroke:var(--amber);stroke-opacity:.45;stroke-width:1.5"/>
 <text x="219.32142857142858" y="161.73333333333335" class="label">critical point</text>

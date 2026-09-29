@@ -1887,7 +1887,7 @@
 </g>
 <rect x="30" y="54" width="230" height="190" rx="6" style="fill:none;stroke:var(--rule);stroke-width:1"/>
 <rect x="360" y="54" width="230" height="190" rx="6" style="fill:none;stroke:var(--rule);stroke-width:1"/>
-<text x="30" y="40" class="label">ice</text>
+<text x="30" y="40" class="label">ice I<tspan baseline-shift="sub" font-size="11">h</tspan></text>
 <text x="360" y="40" class="label">medium-density amorphous ice</text>
 <path d="M278,114 L342,114" class="axis" style="stroke:var(--ink)" marker-end="url(#ahi)"/>
 <path d="M342,184 L278,184" class="axis" style="stroke:var(--ink)" marker-end="url(#ahi)"/>
