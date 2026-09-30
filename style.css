@@ -210,8 +210,7 @@ a:focus-visible, button:focus-visible {
   gap: 72px;
   align-items: start;
 }
-.about-text p { margin: 0 0 1.1em; max-width: var(--measure); color: var(--ink-2); }
-.about-text p:first-child { font-size: 1.3rem; line-height: 1.5; color: var(--ink); }
+.about-text p { margin: 0 0 1.1em; max-width: var(--measure); font-size: 1.3rem; line-height: 1.5; color: var(--ink); }
 .toolkit {
   font-family: var(--sans); font-size: 0.875rem; line-height: 1.6;
   background: var(--surface);
