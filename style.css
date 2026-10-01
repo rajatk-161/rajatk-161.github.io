@@ -439,3 +439,24 @@ a:focus-visible, button:focus-visible {
   .section { border-top: 0; padding-block: 24px; }
   .news li { border-color: #bbb; }
 }
+/* justified running text (desktop and tablet only) */
+.hero-next,
+.about-text p,
+.project-text p:not(.takeaway):not(.refs),
+.next p,
+.teach-grid p {
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+@media (max-width: 720px) {
+  .hero-next,
+  .about-text p,
+  .project-text p,
+  .next p,
+  .teach-grid p {
+    text-align: left;
+    -webkit-hyphens: manual;
+    hyphens: manual;
+  }
+}
